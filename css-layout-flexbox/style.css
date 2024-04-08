@@ -200,7 +200,6 @@ nav a:link {
   display: block; */
 
   margin-right: 30px;
-  margin-top: 10px;
   display: inline-block;
 }
 
@@ -269,53 +268,32 @@ nav p {
   font-size: 18px;
 } */
 
-/*FLOATS*/
+/*FLEXBOX*/
+.main-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* is class ke andr two divs hain to dono ke beech me space aa jayege */
 
-.author-img{
-  float: left;
+}
+
+.author-box{
+  display: flex;
+  align-items: center;
+  margin-bottom:15px;
 }
 
 .author{
-/*  padding-left: 80px; */
-  margin-top:10px;
-  float:left; /* change the value to right and see what happens*/
-  margin-left: 10px;
+  margin-bottom: 0;
+  margin-left: 15px;
 }
 
-h1{
-  float:left;
-}
+.main-layout{
+  display: flex;
+  gap:75px;
+  align-items: flex-start;
 
-nav{
-  float:right;
-}
-
-.clear{
-  clear:both;
-}
-
-.clearfix::after{
-  clear: both;
-  content: "";
-  display: block;
 }
 
 article{
-/*  background-color: green;*/
-/*  width: 900px;*/
-width:825px; /* so that thora space rhe aside componene se*/
-  float:left;
-}
-
-aside{
-/*background-color: red;*/
-width:300px;
-float: right;
-/* box-sizing:border-box lagane se 300 px se jyada width nhi lega kuki aise margin padding milake sb jyada ho jata hai
-to design bigad jata hai */
-}
-
-footer{
-/*background-color: yellow;*/
-clear:both;
+  flex:1;
 }
