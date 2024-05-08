@@ -17,6 +17,10 @@ body{
 	grid-template-rows:80px 1fr ;
 }
 
+nav,menu,section,main,aside{
+	padding:24px;
+}
+
 nav{
 	background-color: #343a40;
 	color:white;
@@ -27,10 +31,43 @@ menu{
 	background-color: #7048e8;
 	color: #fff;
 	grid-column: 2 / -1;
+	display: flex;
+	align-items: center;
+	gap:12px;
+}
+
+button{
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #5f3dc4;
+	border:none;
+	cursor: pointer;
+	color:#fff;
+	padding:8px 12px;
+}
+
+button:last-child{
+	background-color: #d6336c;
+	margin-left: auto;
 }
 
 section{
 	background-color: #e9ecef;
+	display: flex;
+	flex-direction: column;
+	gap:40px;
+	overflow: scroll;
+
+}
+
+.email{
+	background-color: #adb5bd;
+	height: 96px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
 }
 
 aside{
