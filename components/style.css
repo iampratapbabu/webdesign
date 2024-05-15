@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+	margin:auto;
+	width:80%;
+
+}
+
+div{
+	margin: 25px 0;
+}
+
+table{
+	width: 800px;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th,td{
+	border: 1px solid black;
+	padding:16px 24px;
+}
+
+
