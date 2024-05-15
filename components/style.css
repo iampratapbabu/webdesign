@@ -17,13 +17,24 @@ div{
 
 table{
 	width: 800px;
-	border: 1px solid black;
+	font-size:18px;
+/*	border: 1px solid black; if you want overall border*/
 	border-collapse: collapse;
 }
 
 th,td{
-	border: 1px solid black;
+/*	border: 1px solid black; if you want border of every box*/
 	padding:16px 24px;
+	text-align: left;
 }
 
+thead th{
+	background-color: #087f5b;
+	color:#fff;
+	width:25%;
+}
+
+tbody tr:nth-child(odd){
+	background-color: #e9ecef;
+}
 
