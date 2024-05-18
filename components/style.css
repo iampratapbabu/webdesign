@@ -6,10 +6,86 @@
 
 body{
 	font-family: sans-serif;
-	margin:auto;
-	width:80%;
+
 
 }
+
+.container{
+	margin: 0 auto;
+	width: 1200px;
+}
+
+header{
+/*	background-color: orangered;*/
+	height: 100vh;
+	position: relative;
+	background-image: url("https://img.freepik.com/premium-photo/portrait-young-beautiful-hungry-woman-eating-burger-isolated-portrait-student-with-fast-food-red-background-diet-concept_255757-10843.jpg?w=950");
+	background-size: cover;
+	color:#fff;
+}
+
+.header-container{
+	width: 1200px;
+	position: absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+/*	background-color: violet;*/
+}
+
+.header-container-inner{
+	width: 50%;
+/*	background-color: blue;*/
+}
+
+nav{
+	font-size: 20px;
+	font-weight: 700;
+	display: flex;
+	justify-content: space-between;
+/*	background-color: green;*/
+/*	background-image: linear-gradient(red,blue);
+	background-image: linear-gradient(to right,red,blue);*/
+
+}
+
+h1{
+	font-size: 52px;
+	margin-bottom: 32px;
+	line-height: 1.05;
+}
+
+
+
+p{
+	font-size: 20px;
+	line-height: 1.6;
+	margin-bottom: 48px;
+}
+
+.btn:link,
+.btn:visited{
+	font-size: 20px;
+	font-weight: 600;
+	background-color: #e67e22;
+	color:#fff;
+	text-decoration: none;
+	display: inline-block;
+	padding:16px 32px;
+	border-radius: 9px;
+}
+
+
+h2{
+	font-size: 44px;
+	margin-bottom: 48px;
+}
+
+section{
+	padding: 96px 0;
+}
+
 
 div{
 	margin: 25px 0;
