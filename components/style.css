@@ -19,7 +19,7 @@ header{
 /*	background-color: orangered;*/
 	height: 100vh;
 	position: relative;
-	background-image: url("https://img.freepik.com/premium-photo/portrait-young-beautiful-hungry-woman-eating-burger-isolated-portrait-student-with-fast-food-red-background-diet-concept_255757-10843.jpg?w=950");
+	background-image:linear-gradient(rgba(34,34,34,0.6),rgba(34, 34, 34, 0.6)), url("https://img.freepik.com/premium-photo/portrait-young-beautiful-hungry-woman-eating-burger-isolated-portrait-student-with-fast-food-red-background-diet-concept_255757-10843.jpg?w=950");
 	background-size: cover;
 	color:#fff;
 }
@@ -30,7 +30,7 @@ header{
 	left:50%;
 	top:50%;
 	transform: translate(-50%,-50%);
-	text-align: center;
+	text-align: left;
 /*	background-color: violet;*/
 }
 
@@ -44,6 +44,7 @@ nav{
 	font-weight: 700;
 	display: flex;
 	justify-content: space-between;
+	padding-top:32px;
 /*	background-color: green;*/
 /*	background-image: linear-gradient(red,blue);
 	background-image: linear-gradient(to right,red,blue);*/
