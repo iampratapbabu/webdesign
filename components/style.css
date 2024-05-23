@@ -115,3 +115,12 @@ tbody tr:nth-child(odd){
 	background-color: #e9ecef;
 }
 
+
+/* pagination */
+.btn{
+	border:1px soild #087f5b;
+	height:48px;
+	width:48px;
+	border-radius: 50%;
+}
+
